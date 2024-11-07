@@ -1,0 +1,1 @@
+Essa pasta da unidade 1 está bem bagunçada mas melhora nas próximas. Tem coisas quenem são da unidade e foram testadas enquanto eu lia a respeito do javascript no mozilla developer e alura.

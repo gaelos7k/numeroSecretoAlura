@@ -1,0 +1,24 @@
+live server = para não precisar ficar dando f5
+while = enquanto
+
+AND (&&)
+O operador AND, representado pelos símbolos "&&", é utilizado para combinar duas condições e avaliar se ambas são verdadeiras.
+if (idade > 18 && possuiCarteira) {
+  console.log("Pode dirigir!");
+} 
+
+OR (||)
+O operador OR, representado pelos símbolos "||", é usado para verificar se pelo menos uma das condições é verdadeira.
+
+
+Operador	  Nome	     Exemplo               Resultado
+&&	       E / AND	(A > B) && (B == C)	Verdadeiro se A fo maior que B E B for igual a C
+ǀǀ	       OU / OR	(A > B) ǀǀ (B == C)	Verdadeiro se A for maior que B OU B for igual a C
+!	         NEGAÇÃO	   !(A == B)	        Verdadeiro se A NÃO for igual a B
+
+break; para o while()
+
+Math.random() numero sempre maior que 0 e menror que 1.
+para deixar ele como um número decimal basta multiplicar por 10 = Math.radom() * 10
+para então transformar o número em inteiro = parseInt(Math.random() * 10);
+como não inclui o 10 basta fazer = parseInt(Math.random() * 10 + 1);

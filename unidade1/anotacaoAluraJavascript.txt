@@ -1,0 +1,53 @@
+function nomeDaFuncao(){
+//o que a função faz (corpo da função)
+}
+
+-----------------
+Como disse anteriormente, as funções precisam ser invocadas, chamadas em algum momento do seu código. Portanto, você deve chamar a função pelo seu nome soma(), veja abaixo:
+
+<!DOCTYPE html>
+<html>
+    <script> 
+        function soma() {
+            console.log(4 + 6)
+        }
+        soma()
+    </script>
+</html>
+------------------------------
+
+ function soma(x, y) {
+            console.log(x + y)
+        }
+        soma(4, 6)
+        soma(3, 5)
+
+Assim, podemos realizar somas distintas apenas passando diferentes valores na chamada da função
+------------------------------
+  <button onclick="soma(4, 6)">Me aperte</button> 
+    <script> 
+        function soma(x, y) {
+            console.log(x + y)
+        }
+chamando a função quando apertamos um botão
+-------------------------------
+nomeDaVariavel.split quebra a palavra no js. cria um array
+
+Arrays: Usa [] ex: let cores = ["amarelo", "verde", "azul"]
+
+Usados para definir arrays (listas de valores).
+
+const motos = ["Fan", "Titan", "Start", "XRE"]
+motos.pop();
+motos.push("CBR 300")
+
+console.log(motos.length);
+-----------------------------------------------
+
+objetos, que são formados por um conjunto de chave e valor
+
+let beatriz = {
+    altura: 1.75,
+    idade: 22,
+    hobbies: ["ler, dancar,"]
+}

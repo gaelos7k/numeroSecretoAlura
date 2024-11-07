@@ -1,0 +1,20 @@
+server-side (back-end)javascript
+client-side (front-end)javascript com node.js
+
+javascript interno é o elememto <script> dentro da tag <body> em uma página HTML.
+
+javascript externo é o que é feito em um arquivo .js a parte
+
+O JavaScript em um arquivo externo. Isso é geralmente uma coisa boa em termos de organização de código, e faz com que seja possível reutilizar o código em múltiplos arquivos HTML. Além disso, o HTML fica mais legível sem grandes pedaços de script no meio dele. 
+
+ ****<script src="nomeDoArquivo.js" defer></script>****
+
+Os scripts que são carregados usando o atributo async irão baixar o script sem bloquear a renderização da página e irão executar imediatamente após o script terminar de ser disponibilizado. Nesse modo você não tem garantia nenhuma que os scripts carregados irão rodar em uma ordem específica, mas saberá que dessa forma eles não irão impedir o carregamento do restante da página. Então se um depender do outro pode acontecer erro.
+
+Todos os scripts com o atributo defer irão carregar na ordem que aparecem na página.
+
+Resumindo:
+
+--async e defer istruem o browser a baixar os scripts numa thread (processo) à parte, enquanto o resto da página (o DOM, etc.) está sendo baixado e disponibilizado de forma não bloqueante.
+--Se os seus scripts precisam rodar imediatamente, sem que dependam de outros para serem executados, use async.
+--Se seus scripts dependem de outros scripts ou do DOM completamente disponível em tela, carregue-os usando defer e coloque os elementos <script> na ordem exata que deseja que sejam carregados.
