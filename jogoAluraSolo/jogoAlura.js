@@ -22,4 +22,4 @@ while (chute != NUMERO) {
     }
 }
 const palavraTentativa = tentativas > 1 ? "tentativas!" : "tentativa!";
-alert(`Parabens você acertou com ${tentativas} ${palavraTentativa}. E o número secreto é ${NUMERO}.`);
+alert(`Parabéns você acertou com ${tentativas} ${palavraTentativa}. E o número secreto é ${NUMERO}.`);
